@@ -1,0 +1,15 @@
+mg:
+  dcterms:date: 1677
+  dcterms:identifier: 1678-02_007
+  dcterms:title: Lettre de Madame Royale, à Monsieur l’Abbé d’Estrées
+  vmg:indexation:
+  - lettre en prose
+  - Jean II d'Estrées, comte d'Estrées, maréchal de France
+  - MARIE-JEANNE-BAPTISTE DE SAVOIE-NEMOURS (1644-1724), duchesse de Savoie
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200323
+  dcterms:extent: PT105.45632653061224S
+  dcterms:title: Lettre de Madame Royale, à Monsieur l’abbé d’Estrées
+  vmg:performance_type: lecture
+sherlock_uuid: 9339c564-9a45-4820-bfa7-804ddbfd520f

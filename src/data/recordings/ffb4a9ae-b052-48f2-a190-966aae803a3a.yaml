@@ -1,0 +1,13 @@
+mg:
+  dcterms:date: 1708
+  dcterms:identifier: 1708-08_372
+  dcterms:title: De Vos Rigueurs, Ma Bergere
+  vmg:indexation:
+  - Air
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200412
+  dcterms:extent: PT104.928S
+  dcterms:title: De vos rigueurs, ma bergère.
+  vmg:performance_type: air chanté à voix seule
+sherlock_uuid: ffb4a9ae-b052-48f2-a190-966aae803a3a

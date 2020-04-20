@@ -1,0 +1,14 @@
+mg:
+  dcterms:date: 1681
+  dcterms:identifier: 1681-01_169
+  dcterms:title: Air nouveau
+  vmg:indexation:
+  - Lambert, Michel
+  - air
+recording:
+  dcterms:creator: Vathor père et fille
+  dcterms:date: 20200416
+  dcterms:extent: PT77.04S
+  dcterms:title: Dans nos bois, Tircis
+  vmg:performance_type: chant et basse continue
+sherlock_uuid: d02edd6b-fcef-42b8-abda-1d0f5363b2e0

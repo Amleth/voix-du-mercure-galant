@@ -1,0 +1,13 @@
+mg:
+  dcterms:date: 1678
+  dcterms:identifier: 1678-07_366
+  dcterms:title: Enigme
+  vmg:indexation:
+  - Énigme
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200329
+  dcterms:extent: PT47.25551020408163S
+  dcterms:title: Énigme
+  vmg:performance_type: lecture
+sherlock_uuid: 6e11da91-6575-47e6-8e0c-0b56b0110587

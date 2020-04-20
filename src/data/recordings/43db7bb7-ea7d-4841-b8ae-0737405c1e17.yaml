@@ -1,0 +1,15 @@
+mg:
+  dcterms:date: 1706
+  dcterms:identifier: 1706-09_359
+  dcterms:title: Air nouveau
+  vmg:indexation:
+  - MONTAILLY, Nicolas [attr.]
+  - ut1
+  - air à boire
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200330
+  dcterms:extent: PT77.832S
+  dcterms:title: Ami, je te vois rire en regardant Catin
+  vmg:performance_type: air chanté à voix seule
+sherlock_uuid: 43db7bb7-ea7d-4841-b8ae-0737405c1e17

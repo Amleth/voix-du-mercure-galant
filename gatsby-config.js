@@ -5,5 +5,26 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: `Voix du Mercure Galant`,
+  },
+  pathPrefix: `/voix-du-mercure-galant`,
+  plugins: [
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/data/recordings/`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        custom: {
+          urls: ['fonts/imfell/fonts.css'],
+        },
+      },
+    },
+    `gatsby-plugin-emotion`,
+  ],
 }

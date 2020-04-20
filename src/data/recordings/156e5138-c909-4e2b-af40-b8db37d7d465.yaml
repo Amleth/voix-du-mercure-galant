@@ -1,0 +1,20 @@
+mg:
+  dcterms:date: 1678
+  dcterms:identifier: 1678-12e_292
+  dcterms:title: Blondin, Chat des J.... A sa Voisine Grisette, Sur les Rimes de la
+    Piece precédente. Correspondance entre Chats
+  vmg:indexation:
+  - Antoinette du Ligier de la Garde
+  - Madame Deshoulières
+  - marquise de Montglas
+  - Cécile Elisabeth HURAULT DE CHEVERNY
+  - poésie
+  - vers animaliers
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200408
+  dcterms:extent: PT137.35183673469388S
+  dcterms:title: Blondin, chat des J.... à sa voisine Grisette (Correspondance entre
+    chats)
+  vmg:performance_type: lecture
+sherlock_uuid: 156e5138-c909-4e2b-af40-b8db37d7d465

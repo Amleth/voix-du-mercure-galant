@@ -1,0 +1,15 @@
+mg:
+  dcterms:date: 1678
+  dcterms:identifier: 1678-06_017
+  dcterms:title: Le Mary Patissier, Histoire
+  vmg:indexation:
+  - prose galante
+  - histoire galante
+  - cocuage
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200406
+  dcterms:extent: PT615.0530612244899S
+  dcterms:title: Le mari pâtissier. Histoire
+  vmg:performance_type: lecture
+sherlock_uuid: dca3a778-4547-4bbb-a28a-49d70814c652

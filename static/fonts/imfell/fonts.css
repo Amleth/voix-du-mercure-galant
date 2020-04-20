@@ -1,0 +1,20 @@
+@font-face {
+  font-family: IMFELLEnglishPRO;
+  src: url('FeENrm28C-webfont.woff');
+}
+
+@font-face {
+  font-family: IMFELLEnglishPRO;
+  font-style: italic;
+  src: url('FeENit27C-webfont.woff');
+}
+
+@font-face {
+  font-family: IMFELLFlowers1;
+  src: url('IMFeFlow1.otf');
+}
+
+@font-face {
+  font-family: IMFELLFlowers2;
+  src: url('IMFeFlow2.otf');
+}

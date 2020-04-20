@@ -1,0 +1,14 @@
+mg:
+  dcterms:date: 0
+  dcterms:identifier: nil
+  dcterms:title: ''
+  vmg:indexation:
+  - LAMBERT, Michel
+  - air
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200331
+  dcterms:extent: PT115.944S
+  dcterms:title: Vos mépris chaque jour
+  vmg:performance_type: chanté à voix seule
+sherlock_uuid: 25b4b295-7d64-40fb-8497-7902ba0fef76

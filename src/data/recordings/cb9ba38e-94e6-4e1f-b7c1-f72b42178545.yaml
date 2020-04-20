@@ -1,0 +1,15 @@
+mg:
+  dcterms:date: 1707
+  dcterms:identifier: 1707-08_193
+  dcterms:title: Ouvrages de Mlle de la Guerre donnez au Public
+  vmg:indexation:
+  - Jacquet de La Guerre, Élisabeth
+  - clavecin
+  - livres nouveaux
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200407
+  dcterms:extent: PT153.521625S
+  dcterms:title: Ouvrages d'Élisabeth Jacquet de La Guerre donnés au public
+  vmg:performance_type: lecture
+sherlock_uuid: cb9ba38e-94e6-4e1f-b7c1-f72b42178545

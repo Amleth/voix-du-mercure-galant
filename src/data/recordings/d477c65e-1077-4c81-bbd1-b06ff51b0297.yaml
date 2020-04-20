@@ -1,0 +1,15 @@
+mg:
+  dcterms:date: 1679
+  dcterms:identifier: 1679-05_236
+  dcterms:title: Les Oiseaux. Idille de Madame des Houlieres
+  vmg:indexation:
+  - Idylle
+  - Antoinette du Ligier de la Garde
+  - Madame Deshoulières
+recording:
+  dcterms:creator: La Sibylle des brumes
+  dcterms:date: 20200402
+  dcterms:extent: PT271.88245S
+  dcterms:title: Les Oiseaux. Idylle de Madame des Houlieres
+  vmg:performance_type: lecture
+sherlock_uuid: d477c65e-1077-4c81-bbd1-b06ff51b0297

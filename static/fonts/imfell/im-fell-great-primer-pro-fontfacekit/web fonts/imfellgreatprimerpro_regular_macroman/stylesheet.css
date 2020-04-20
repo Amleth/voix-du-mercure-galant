@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'im_fell_great_primer_proRg';
+    src: url('FeGPrm27C-webfont.eot');
+    src: url('FeGPrm27C-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FeGPrm27C-webfont.woff2') format('woff2'),
+         url('FeGPrm27C-webfont.woff') format('woff'),
+         url('FeGPrm27C-webfont.ttf') format('truetype'),
+         url('FeGPrm27C-webfont.svg#im_fell_great_primer_proRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

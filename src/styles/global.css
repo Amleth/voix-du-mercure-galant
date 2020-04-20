@@ -1,0 +1,41 @@
+@import url(~sanitize.css/sanitize.css);
+@import url(~sanitize.css/forms.css);
+@import url(~sanitize.css/typography.css);
+
+html {
+  font-family: IMFELLEnglishPRO;
+}
+
+html * {
+  font-variant-ligatures: historical-ligatures;
+}
+
+ul {
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.imff1 {
+  font-family: IMFELLFlowers1 !important;
+}
+
+.imff2 {
+  font-family: IMFELLFlowers2 !important;
+}
+
+a {
+  color: #1693a5;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: default;
+}

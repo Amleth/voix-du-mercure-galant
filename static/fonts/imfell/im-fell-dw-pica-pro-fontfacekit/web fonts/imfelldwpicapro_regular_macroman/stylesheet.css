@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'im_fell_dw_pica_proregular';
+    src: url('FePIrm27C-webfont.eot');
+    src: url('FePIrm27C-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FePIrm27C-webfont.woff2') format('woff2'),
+         url('FePIrm27C-webfont.woff') format('woff'),
+         url('FePIrm27C-webfont.ttf') format('truetype'),
+         url('FePIrm27C-webfont.svg#im_fell_dw_pica_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

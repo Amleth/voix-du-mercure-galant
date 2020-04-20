@@ -1,0 +1,18 @@
+mg:
+  dcterms:date: 1681
+  dcterms:identifier: 1681-01_246b, 1681-02_249, 1681-03_306
+  dcterms:title: Chanson
+  vmg:indexation:
+  - CHARPENTIER, Marc-Antoine
+  - CORNEILLE, PIerre
+  - air
+  - Le Cid
+  - ut3/bc
+  - stances
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200331
+  dcterms:extent: PT332.8S
+  dcterms:title: Stances du Cid mises en musique par Marc Antoine Charpentier
+  vmg:performance_type: chant et basse continue
+sherlock_uuid: 5c35d96d-f5f6-4710-afce-ca905aa41859

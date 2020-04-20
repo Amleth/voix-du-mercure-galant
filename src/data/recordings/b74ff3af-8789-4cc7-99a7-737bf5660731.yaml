@@ -1,0 +1,15 @@
+mg:
+  dcterms:date: 1695
+  dcterms:identifier: 1695-04_266
+  dcterms:title: Mort de Jean de la Fontaine
+  vmg:indexation:
+  - décès
+  - La Fontaine, Jean de (1621-1695)
+  - épitaphe
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200407
+  dcterms:extent: PT76.848S
+  dcterms:title: Mort de Jean de La Fontaine
+  vmg:performance_type: lecture
+sherlock_uuid: b74ff3af-8789-4cc7-99a7-737bf5660731

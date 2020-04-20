@@ -1,0 +1,17 @@
+mg:
+  dcterms:date: 1679
+  dcterms:identifier: 1679-03_195
+  dcterms:title: Air italien
+  vmg:indexation:
+  - air italien
+  - Rome
+  - annonce éditoriale
+  - gravure
+  - ut1/bc
+recording:
+  dcterms:creator: Antonella Fenech
+  dcterms:date: 20200327
+  dcterms:extent: PT72.48S
+  dcterms:title: È così dolce la pena ch'io sento
+  vmg:performance_type: lecture
+sherlock_uuid: 5f977892-b5fe-4cd9-828c-c9bd7985f14b

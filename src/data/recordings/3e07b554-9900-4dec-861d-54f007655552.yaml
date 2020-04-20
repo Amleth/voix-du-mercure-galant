@@ -1,0 +1,14 @@
+mg:
+  dcterms:date: 1678
+  dcterms:identifier: 1678-04_071
+  dcterms:title: Rossignols, que pretendez-vous
+  vmg:indexation:
+  - AIr
+  - François I Martin
+recording:
+  dcterms:creator: L'ami du cardinal Mazarin
+  dcterms:date: 20200415
+  dcterms:extent: PT98.194275S
+  dcterms:title: Rossignols, que prétendez-vous  ?
+  vmg:performance_type: joué au traverso
+sherlock_uuid: 3e07b554-9900-4dec-861d-54f007655552

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'im_fell_english_proregular';
+    src: url('FeENrm28C-webfont.eot');
+    src: url('FeENrm28C-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FeENrm28C-webfont.woff2') format('woff2'),
+         url('FeENrm28C-webfont.woff') format('woff'),
+         url('FeENrm28C-webfont.ttf') format('truetype'),
+         url('FeENrm28C-webfont.svg#im_fell_english_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
