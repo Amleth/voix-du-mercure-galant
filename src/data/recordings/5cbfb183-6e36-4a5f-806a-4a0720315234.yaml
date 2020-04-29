@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1685
+  dcterms:creator: ''
+  dcterms:date: 168503
   dcterms:identifier: 1685-03_177
   dcterms:title: Le Ruisseau. Idyle de Madame des Houlières
   vmg:indexation:
@@ -9,5 +10,6 @@ recording:
   dcterms:date: 20200331
   dcterms:extent: PT674.784S
   dcterms:title: Le ruisseau. Idylle de Madame des Houlières
+  vmg:performance_details: ''
   vmg:performance_type: déclamation baroque
 sherlock_uuid: 5cbfb183-6e36-4a5f-806a-4a0720315234

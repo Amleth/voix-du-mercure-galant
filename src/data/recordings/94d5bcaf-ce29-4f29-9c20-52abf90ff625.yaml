@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1685
+  dcterms:creator: ''
+  dcterms:date: 168511
   dcterms:identifier: 1685-11_089
   dcterms:title: '[Mort de Mr le Chancelier Le Tellier]'
   vmg:indexation:
@@ -11,5 +12,6 @@ recording:
   dcterms:date: 20200406
   dcterms:extent: PT98.16815S
   dcterms:title: Mort de Monsieur le Chancelier Le Tellier
+  vmg:performance_details: ''
   vmg:performance_type: lecture
 sherlock_uuid: 94d5bcaf-ce29-4f29-9c20-52abf90ff625

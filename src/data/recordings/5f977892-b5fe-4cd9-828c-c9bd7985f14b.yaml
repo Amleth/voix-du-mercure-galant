@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1679
+  dcterms:creator: 'Air '
+  dcterms:date: 167903
   dcterms:identifier: 1679-03_195
   dcterms:title: Air italien
   vmg:indexation:
@@ -13,5 +14,6 @@ recording:
   dcterms:date: 20200327
   dcterms:extent: PT72.48S
   dcterms:title: È così dolce la pena ch'io sento
+  vmg:performance_details: ''
   vmg:performance_type: lecture
 sherlock_uuid: 5f977892-b5fe-4cd9-828c-c9bd7985f14b

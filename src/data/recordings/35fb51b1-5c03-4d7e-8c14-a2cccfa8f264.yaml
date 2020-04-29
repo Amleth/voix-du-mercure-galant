@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1687
+  dcterms:creator: ''
+  dcterms:date: 168704
   dcterms:identifier: 1687-04_074
   dcterms:title: Lou Pescadour content despuis la réjoüissenço facho per la Sanitat
     dau Rey
@@ -14,5 +15,6 @@ recording:
   dcterms:extent: PT126.744S
   dcterms:title: Lou Pescadour content despuis la réjoüissenço facho per la Sanitat
     dau Rey
+  vmg:performance_details: occitan
   vmg:performance_type: lecture
 sherlock_uuid: 35fb51b1-5c03-4d7e-8c14-a2cccfa8f264

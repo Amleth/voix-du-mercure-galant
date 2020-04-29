@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1681
+  dcterms:creator: ''
+  dcterms:date: 168101
   dcterms:identifier: 1681-01_169
   dcterms:title: Air nouveau
   vmg:indexation:
@@ -9,5 +10,6 @@ recording:
   dcterms:date: 20200416
   dcterms:extent: PT49.704S
   dcterms:title: Air d'un fort grand génie…
+  vmg:performance_details: ''
   vmg:performance_type: lecture
 sherlock_uuid: d5065ecc-170d-4b81-ac21-a832bdea8017

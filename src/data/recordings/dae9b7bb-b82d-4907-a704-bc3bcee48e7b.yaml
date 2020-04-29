@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1681
+  dcterms:creator: ''
+  dcterms:date: 168103
   dcterms:identifier: 1681-03_023
   dcterms:title: Avanture du Carnaval, ou le faux Démon
   vmg:indexation:
@@ -11,5 +12,6 @@ recording:
   dcterms:date: 20200406
   dcterms:extent: PT249.70448979591836S
   dcterms:title: Aventure du Carnaval, ou le faux Démon
+  vmg:performance_details: ''
   vmg:performance_type: lecture
 sherlock_uuid: dae9b7bb-b82d-4907-a704-bc3bcee48e7b

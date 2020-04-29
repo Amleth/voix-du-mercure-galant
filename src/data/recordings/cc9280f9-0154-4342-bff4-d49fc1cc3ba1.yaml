@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1679
+  dcterms:creator: Fable de Marie-Catherine Desjardins de Villedieu
+  dcterms:date: 167902
   dcterms:identifier: 1679-02_107
   dcterms:title: Fable de la Tourterelle et du Ramier
   vmg:indexation:
@@ -10,5 +11,6 @@ recording:
   dcterms:date: 20200411
   dcterms:extent: PT212.40163265306123S
   dcterms:title: La tourterelle et le ramier. Fable de Madame de Villedieu
+  vmg:performance_details: ''
   vmg:performance_type: lecture
 sherlock_uuid: cc9280f9-0154-4342-bff4-d49fc1cc3ba1

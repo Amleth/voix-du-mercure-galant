@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1678
+  dcterms:creator: de Mme Deshoulières
+  dcterms:date: 167812
   dcterms:identifier: 1678-12e_292
   dcterms:title: Correspondance entre Chats
   vmg:indexation:
@@ -14,5 +15,6 @@ recording:
   dcterms:date: 20200330
   dcterms:extent: PT98.35102040816327S
   dcterms:title: Tata à Grisette (Correspondance entre chats)
+  vmg:performance_details: ''
   vmg:performance_type: lecture
 sherlock_uuid: a1646316-64d9-4be5-adce-19fc88c359e8

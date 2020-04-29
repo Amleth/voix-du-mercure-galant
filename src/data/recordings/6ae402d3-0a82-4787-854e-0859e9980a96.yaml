@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1707
+  dcterms:creator: ''
+  dcterms:date: 170710
   dcterms:identifier: 1707-10_079
   dcterms:title: Autro canson Su l’espeditien de Prouvenço, dau Duc de Savoyo
   vmg:indexation:
@@ -12,5 +13,6 @@ recording:
   dcterms:date: 20200404
   dcterms:extent: PT193.656S
   dcterms:title: Autro canson Su l’espeditien de Prouvenço, dau Duc de Savoyo
+  vmg:performance_details: occitan
   vmg:performance_type: lecture
 sherlock_uuid: 6ae402d3-0a82-4787-854e-0859e9980a96

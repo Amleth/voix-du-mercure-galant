@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1693
+  dcterms:creator: ''
+  dcterms:date: 169311
   dcterms:identifier: 1693-11_268
   dcterms:title: '[Caracteres des Femmes du Siecle]'
   vmg:indexation:
@@ -12,5 +13,6 @@ recording:
   dcterms:date: 20200415
   dcterms:extent: PT60.55183673469388S
   dcterms:title: Caractères des femmes du siècle
+  vmg:performance_details: ''
   vmg:performance_type: lecture
 sherlock_uuid: 8a53ed0d-2246-4542-ab59-f25d19cc8437

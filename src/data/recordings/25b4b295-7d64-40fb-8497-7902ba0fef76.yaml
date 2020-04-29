@@ -1,4 +1,5 @@
 mg:
+  dcterms:creator: Air de Michel Lambert
   dcterms:date: 0
   dcterms:identifier: nil
   dcterms:title: ''
@@ -10,5 +11,6 @@ recording:
   dcterms:date: 20200331
   dcterms:extent: PT115.944S
   dcterms:title: Vos mépris chaque jour
+  vmg:performance_details: ''
   vmg:performance_type: chanté à voix seule
 sherlock_uuid: 25b4b295-7d64-40fb-8497-7902ba0fef76

@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1678
+  dcterms:creator: ''
+  dcterms:date: 167804
   dcterms:identifier: 1678-04_305
   dcterms:title: '[Compliment fait à la reine par le mesme Envoyé]'
   vmg:indexation:
@@ -12,5 +13,6 @@ recording:
   dcterms:date: 20200406
   dcterms:extent: PT61.92S
   dcterms:title: Compliment fait à la reine par l'envoyé du Portugal
+  vmg:performance_details: espagnol
   vmg:performance_type: lecture
 sherlock_uuid: 3d8f5471-df2f-44fd-a40e-d67d9b9d71df

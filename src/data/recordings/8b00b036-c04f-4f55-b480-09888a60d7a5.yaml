@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1678
+  dcterms:creator: ''
+  dcterms:date: 167805
   dcterms:identifier: 1678-05_034
   dcterms:title: Elegie sur le Langage des Yeux
   vmg:indexation:
@@ -9,5 +10,6 @@ recording:
   dcterms:date: 20200329
   dcterms:extent: PT194.97795918367348S
   dcterms:title: Élégie sur le langage des yeux
+  vmg:performance_details: ''
   vmg:performance_type: déclamation baroque
 sherlock_uuid: 8b00b036-c04f-4f55-b480-09888a60d7a5

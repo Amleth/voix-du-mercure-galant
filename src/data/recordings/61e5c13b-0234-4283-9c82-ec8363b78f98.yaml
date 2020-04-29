@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1678
+  dcterms:creator: ''
+  dcterms:date: 167803
   dcterms:identifier: 1678-03_214
   dcterms:title: Feste Galante de M. de Verduron, Viguier General de Montpellier
   vmg:indexation:
@@ -11,5 +12,6 @@ recording:
   dcterms:date: 20200407
   dcterms:extent: PT224.75755S
   dcterms:title: Fête galante de Monsieur de Verduron, viguier général de Montpellier
+  vmg:performance_details: ''
   vmg:performance_type: lecture
 sherlock_uuid: 61e5c13b-0234-4283-9c82-ec8363b78f98

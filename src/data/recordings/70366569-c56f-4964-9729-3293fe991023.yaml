@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1678
+  dcterms:creator: Air de Marc Antoine Charpentier sur des paroles de Vaumorier
+  dcterms:date: 167802
   dcterms:identifier: 1678-02_016
   dcterms:title: Paroles de M. Vaumorieres notées par M. Charpentier
   vmg:indexation:
@@ -11,5 +12,6 @@ recording:
   dcterms:date: 20200401
   dcterms:extent: PT111.85632653061225S
   dcterms:title: En vain rivaux assidus
+  vmg:performance_details: ''
   vmg:performance_type: joué au clavecin
 sherlock_uuid: 70366569-c56f-4964-9729-3293fe991023

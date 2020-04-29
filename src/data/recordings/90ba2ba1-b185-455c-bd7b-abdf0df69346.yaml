@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1678
+  dcterms:creator: de Mme Deshoulières
+  dcterms:date: 167812
   dcterms:identifier: 1678-12e_292
   dcterms:title: Correspondance entre Chats
   vmg:indexation:
@@ -14,5 +15,6 @@ recording:
   dcterms:date: 20200331
   dcterms:extent: PT127.45142857142856S
   dcterms:title: Réponse de Grisette (Correspondance entre chats)
+  vmg:performance_details: ''
   vmg:performance_type: lecture
 sherlock_uuid: 90ba2ba1-b185-455c-bd7b-abdf0df69346

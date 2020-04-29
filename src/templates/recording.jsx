@@ -1,14 +1,14 @@
 /** @jsx jsx */
 
 import { jsx } from '@emotion/core'
-import { graphql } from 'gatsby'
-import React, { useRef, useEffect } from 'react'
+import { graphql, Link } from 'gatsby'
+import React, { useEffect, useRef } from 'react'
 import WaveSurfer from 'wavesurfer.js'
-import Layout from '../components/layout'
-import { makeExtent } from '../common/helpers'
+import Layout from '../components/Layout'
+import { makeExtent, formatYYYYMMDD } from '../common/helpers'
+import { IN, OUT, TEAL } from '../common/style'
 
-const IN = 0.2
-const OUT = 0.5
+const PICTURE_SIZE = 150
 
 export default ({ data }) => {
   const waveformRef = useRef()
@@ -22,9 +22,9 @@ export default ({ data }) => {
       const mp3 = 'recordings/' + data.recordingsYaml.sherlock_uuid + '.mp3'
       wavesurfer = WaveSurfer.create({
         container: waveformRef.current,
-        cursorColor: '#1693A5',
-        // progressColor: '',
-        // waveColor: '',
+        cursorColor: 'DarkTurquoise',
+        progressColor: TEAL,
+        waveColor: 'DarkTurquoise',
       })
       wavesurfer.load(mp3)
       wavesurfer.on('pause', () => (buttonRef.current.innerHTML = 'Lecture'))
@@ -37,39 +37,67 @@ export default ({ data }) => {
     return () => {
       wavesurfer.destroy()
     }
-  }, [])
-
-  const date = data.recordingsYaml.recording.dcterms_date.toString()
+  }, [data.recordingsYaml.sherlock_uuid])
 
   return (
     <Layout>
       {/* RECORDING METADATA */}
-      <div css={{ textAlign: 'center' }}>
-        <h3
+      <div
+        css={{
+          borderTop: '1px solid gray',
+          margin: 'auto',
+          maxWidth: 800,
+          paddingTop: '2rem',
+          textAlign: 'center',
+        }}
+      >
+        <h2
           css={{
-            fontSize: '1.5rem',
-            fontStyle: 'italic',
-            marginBottom: '1rem',
+            fontSize: '2.5rem',
           }}
         >
           {data.recordingsYaml.recording.dcterms_title}
-        </h3>
-        <div css={{ color: 'gray', textTransform: 'capitalize' }}>
+        </h2>
+        <div
+          css={{
+            fontSize: '1.75rem',
+          }}
+        >
+          {data.recordingsYaml.mg.dcterms_creator}
+        </div>
+        <Link
+          to="/"
+          css={{
+            fontSize: '1.5rem',
+            fontStyle: 'italic',
+            transition: `color ${OUT}s`,
+            '&:hover': {
+              color: 'DarkTurquoise',
+              transition: `color ${IN}s`,
+            },
+          }}
+        >
+          {' '}
+          (Retour)
+        </Link>
+        <div
+          css={{
+            color: 'gray',
+            fontSize: '1.5rem',
+            marginTop: '2rem',
+          }}
+        >
           {data.recordingsYaml.recording.vmg_performance_type} ({extent})
         </div>
         {data.recordingsYaml.recording.dcterms_creator && (
-          <div css={{ color: 'gray', fontStyle: 'italic' }}>
-            {data.recordingsYaml.recording.dcterms_creator}
+          <div css={{ color: 'gray', fontSize: '1.5rem', fontStyle: 'italic' }}>
+            par {data.recordingsYaml.recording.dcterms_creator}
           </div>
         )}
-        <div css={{ color: 'darkgray' }}>
-          Publié le{' '}
-          {new Date(
-            date.slice(0, 4),
-            date.slice(4, 6) - 1,
-            date.slice(6, 8)
-          ).toLocaleDateString()}
-          {}
+        <div css={{ color: 'darkgray', fontSize: '1.5rem' }}>
+          {`Publié le ${formatYYYYMMDD(
+            data.recordingsYaml.recording.dcterms_date
+          )}`}
         </div>
         {/* WAVESURFER */}
         <div
@@ -91,12 +119,13 @@ export default ({ data }) => {
         >
           <button
             css={{
-              color: 'gray',
+              color: TEAL,
+              fontSize: '1.25rem',
               fontVariant: 'small-caps',
               transition: `color ${OUT}s`,
-              width: 111,
+              width: 135,
               '&:hover': {
-                color: '#1693A5',
+                color: 'DarkTurquoise',
                 transition: `color ${IN}s`,
               },
             }}
@@ -106,12 +135,6 @@ export default ({ data }) => {
           </button>
         </div>
         {/* MERCURE METADATA */}
-        {/* <div
-          className="imff2"
-          css={{ fontSize: '2rem', marginBottom: '-11px', marginTop: '1rem' }}
-        >
-          X
-        </div> */}
         {data.recordingsYaml.mg.dcterms_title && (
           <>
             <svg
@@ -128,12 +151,13 @@ export default ({ data }) => {
                 X
               </text>
             </svg>
-            <div css={{ fontSize: '2rem' }}>
-              {data.recordingsYaml.mg.dcterms_date}
+            <div css={{ fontSize: '2.25rem' }}>
+              <span css={{ fontStyle: 'italic' }}>Mercure galant</span>,{' '}
+              {formatYYYYMMDD(data.recordingsYaml.mg.dcterms_date)}
             </div>
             {data.recordingsYaml.mg.dcterms_title !==
               data.recordingsYaml.recording.dcterms_title && (
-              <div css={{ fontSize: '1rem', fontStyle: 'italic' }}>
+              <div css={{ fontSize: '1.69rem', fontStyle: 'italic' }}>
                 {data.recordingsYaml.mg.dcterms_title}
               </div>
             )}
@@ -147,14 +171,14 @@ export default ({ data }) => {
                 }
                 target="_blank"
                 rel="noopener noreferrer"
-                css={{ '&:hover': { textDecoration: 'underline' } }}
+                css={{
+                  fontSize: '1.5rem',
+                  '&:hover': { textDecoration: 'underline' },
+                }}
               >
                 Édition OBVIL ({data.recordingsYaml.mg.dcterms_identifier})
               </a>
             </div>
-            {/* <div className="imff2" css={{ fontSize: '2rem' }}>
-          x
-        </div> */}
             <svg
               css={{ height: 32, marginTop: '0.69rem', width: 111 }}
               xmlns="http://www.w3.org/2000/svg"
@@ -171,6 +195,21 @@ export default ({ data }) => {
             </svg>
           </>
         )}
+        <div css={{ margin: '3rem 0' }}>
+          <img
+            src={'pictures/' + data.recordingsYaml.sherlock_uuid + '.jpg'}
+            alt={data.recordingsYaml.recording.dcterms_title}
+            css={{
+              borderRadius: '50%',
+              boxShadow: '1px 1px 3px 1px rgba(0,0,0,0.6)',
+              margin: 'auto',
+              maxHeight: PICTURE_SIZE,
+              maxWidth: PICTURE_SIZE,
+              minHeight: PICTURE_SIZE,
+              minWidth: PICTURE_SIZE,
+            }}
+          />
+        </div>
       </div>
     </Layout>
   )
@@ -186,8 +225,10 @@ export const query = graphql`
         dcterms_extent
         dcterms_title
         vmg_performance_type
+        vmg_performance_details
       }
       mg {
+        dcterms_creator
         dcterms_date
         dcterms_identifier
         dcterms_title

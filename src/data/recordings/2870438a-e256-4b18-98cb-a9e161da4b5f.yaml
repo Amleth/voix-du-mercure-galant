@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1679
+  dcterms:creator: Air de Blérigny
+  dcterms:date: 167911
   dcterms:identifier: 1679-11_043
   dcterms:title: Vers envoyez à un Amant qui vouloit se marier
   vmg:indexation:
@@ -9,5 +10,6 @@ recording:
   dcterms:date: 20200403
   dcterms:extent: PT275.487325S
   dcterms:title: Vers envoyés à un amant qui voulait se marier
+  vmg:performance_details: ''
   vmg:performance_type: déclamation baroque
 sherlock_uuid: 2870438a-e256-4b18-98cb-a9e161da4b5f

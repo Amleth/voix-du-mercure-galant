@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1707
+  dcterms:creator: ''
+  dcterms:date: 170710
   dcterms:identifier: 1707-10_065
   dcterms:title: Canson su la retreto dau duc de Savoyo
   vmg:indexation:
@@ -12,5 +13,6 @@ recording:
   dcterms:date: 20200404
   dcterms:extent: PT317.04S
   dcterms:title: Canson su la retreto dau duc de Savoyo
+  vmg:performance_details: occitan
   vmg:performance_type: lecture
 sherlock_uuid: 9af09984-be15-43a6-a09e-f9d998a739ad

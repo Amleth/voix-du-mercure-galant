@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1678
+  dcterms:creator: ''
+  dcterms:date: 167809
   dcterms:identifier: 1678-09e_338
   dcterms:title: Solution de l'énigme 1
   vmg:indexation:
@@ -9,5 +10,6 @@ recording:
   dcterms:date: 20200329
   dcterms:extent: PT32.20897959183674S
   dcterms:title: Solution de l'énigme
+  vmg:performance_details: ''
   vmg:performance_type: lecture
 sherlock_uuid: ab0aca37-ab38-478b-aeaa-e27d0a5d0275

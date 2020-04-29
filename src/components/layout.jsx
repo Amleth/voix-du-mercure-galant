@@ -2,7 +2,8 @@
 
 import { jsx } from '@emotion/core'
 import { graphql, Link, useStaticQuery } from 'gatsby'
-import React from 'React'
+import React from 'react'
+import { HEIGHT as BOTTOM_PLAYER_HEIGHT } from '../components/BottomPlayer'
 
 const IN = 0.2
 const OUT = 0.5
@@ -42,13 +43,12 @@ export default ({ children }) => {
       <nav
         css={{
           alignItems: 'center',
-          borderBottom: '1px solid lightgray',
-          borderTop: '1px solid lightgray',
           display: 'flex',
           fontSize: '2rem',
           fontVariant: 'small-caps',
           justifyContent: 'center',
           listStyleType: 'none',
+          marginBottom: '2rem',
           width: '100%',
         }}
       >
@@ -56,7 +56,7 @@ export default ({ children }) => {
         {MENU_SEP}
         {MENU_ITEM_ENREGISTREMENTS}
       </nav>
-      <div>{children}</div>
+      <div css={{ paddingBottom: BOTTOM_PLAYER_HEIGHT }}>{children}</div>
     </div>
   )
 }
@@ -132,19 +132,6 @@ const MENU_SEP = (
 // TITLE
 ////////////////////////////////////////////////////////////////////////////////
 
-const TITLE_SYMBOL_LEFT = (
-  <div
-    css={{
-      alignItems: 'center',
-      display: 'flex',
-      fontFamily: 'IMFellFlowers1',
-      fontSize: '4rem',
-      paddingBottom: '20px',
-    }}
-  >
-    Q
-  </div>
-)
 const TITLE = (siteTitle) => (
   <Link
     to="/"
@@ -167,7 +154,7 @@ const TITLE = (siteTitle) => (
     </h1>
   </Link>
 )
-const TITLE_SYMBOL_RIGHT = (
+const TITLE_SYMBOL_LEFT = (
   <div
     css={{
       alignItems: 'center',
@@ -178,5 +165,18 @@ const TITLE_SYMBOL_RIGHT = (
     }}
   >
     O
+  </div>
+)
+const TITLE_SYMBOL_RIGHT = (
+  <div
+    css={{
+      alignItems: 'center',
+      display: 'flex',
+      fontFamily: 'IMFellFlowers1',
+      fontSize: '4rem',
+      paddingBottom: '20px',
+    }}
+  >
+    Q
   </div>
 )

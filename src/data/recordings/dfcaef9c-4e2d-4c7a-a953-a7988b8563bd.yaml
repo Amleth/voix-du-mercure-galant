@@ -1,5 +1,6 @@
 mg:
-  dcterms:date: 1697
+  dcterms:creator: ''
+  dcterms:date: 169702
   dcterms:identifier: 1697-02_202
   dcterms:title: '[Secrets merveilleux dont l’experience a esté faite devant le Roy]'
   vmg:indexation:
@@ -9,5 +10,6 @@ recording:
   dcterms:date: 20200407
   dcterms:extent: PT259.3959S
   dcterms:title: Secrets merveilleux dont l’expérience a été faite devant le roi
+  vmg:performance_details: ''
   vmg:performance_type: lecture
 sherlock_uuid: dfcaef9c-4e2d-4c7a-a953-a7988b8563bd
