@@ -29,7 +29,7 @@ exports.createPages = async ({ graphql, actions }) => {
   result.data.allRecordingsYaml.edges.forEach(({ node }) => {
     createPage({
       path: node.sherlock_uuid,
-      component: path.resolve(`./src/templates/recording.jsx`),
+      component: path.resolve(`./src/pages/recording.jsx`),
       context: {
         slug: node.sherlock_uuid,
       },

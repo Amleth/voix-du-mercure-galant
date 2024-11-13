@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 167302
+  dcterms:identifier: 1673-02_201
+  dcterms:title: Extrait d’une Lettre de Liege
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200604
+  dcterms:extent: PT66.56S
+  dcterms:title: Extrait d'une lettre de Liège
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 73736794-959c-4b8a-8cd9-943a221b3d5a

@@ -1,5 +1,5 @@
 mg:
-  dcterms:creator: Déclamation baroque
+  dcterms:creator: ''
   dcterms:date: 168112
   dcterms:identifier: 1681-12e_357
   dcterms:title: Reponse aux Larmes de Daphnis, sur la mort de sa Femme, qui ont paru
@@ -7,9 +7,9 @@ mg:
   vmg:indexation: []
 recording:
   dcterms:creator: Vathor père
-  dcterms:date: 20200416
+  dcterms:date: 20200417
   dcterms:extent: PT121.776S
-  dcterms:title: Réponse aux larmes de Daphnis
+  dcterms:title: Réponse aux larmes de Daphnis sur la mort de sa femme
   vmg:performance_details: ''
-  vmg:performance_type: lecture
+  vmg:performance_type: déclamation baroque
 sherlock_uuid: 57996b86-b983-4dff-aa7a-3a49fba3ac59

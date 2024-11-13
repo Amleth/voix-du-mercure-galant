@@ -3,12 +3,13 @@ mg:
   dcterms:date: 168102
   dcterms:identifier: 1681-02_045
   dcterms:title: Air
-  vmg:indexation: []
+  vmg:indexation:
+  - Lambert, Michel
 recording:
   dcterms:creator: Vathor père
-  dcterms:date: 20200416
+  dcterms:date: 20200414
   dcterms:extent: PT32.448S
-  dcterms:title: Sur l'air « Dans nos bois, Tircis »
+  dcterms:title: Commentaire de l'air “Dans nos bois, Tircis”
   vmg:performance_details: ''
   vmg:performance_type: lecture
 sherlock_uuid: e1668a6c-6a15-41e1-a0cd-af4666c2a43b

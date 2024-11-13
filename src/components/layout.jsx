@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { jsx } from '@emotion/core'
+import { jsx } from '@emotion/react'
 import { graphql, Link, useStaticQuery } from 'gatsby'
 import React from 'react'
 import { HEIGHT as BOTTOM_PLAYER_HEIGHT } from '../components/BottomPlayer'
@@ -8,7 +8,7 @@ import { HEIGHT as BOTTOM_PLAYER_HEIGHT } from '../components/BottomPlayer'
 const IN = 0.2
 const OUT = 0.5
 
-export default ({ children }) => {
+const Layout = ({ children }) => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -24,10 +24,10 @@ export default ({ children }) => {
   let siteTitle = data.site.siteMetadata.title
   if (siteTitle === 'Voix du Mercure Galant') {
     siteTitle = (
-      <>
+      <React.Fragment>
         <div>Voix du</div>
         <div>Mercure Galant</div>
-      </>
+      </React.Fragment>
     )
   }
 
@@ -180,3 +180,5 @@ const TITLE_SYMBOL_RIGHT = (
     Q
   </div>
 )
+
+export default Layout

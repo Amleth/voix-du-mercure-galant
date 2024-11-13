@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 0
+  dcterms:identifier: nil
+  dcterms:title: '[Satyre sur la Conversation]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20211207
+  dcterms:extent: PT307.51345833333335S
+  dcterms:title: Satire sur la conversation
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 27cdfe6f-4dc4-45d7-98e9-580f939be911

@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: Histoire
+  dcterms:date: 168312
+  dcterms:identifier: 1683-12_041
+  dcterms:title: '[Histoire]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20201229
+  dcterms:extent: PT1223.8105833333334S
+  dcterms:title: Un certain je ne sais quoi nous pousse à être inconstants
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: de2a47cc-8c3a-4a8b-bdcc-c5e2bee03e86

@@ -1,0 +1,15 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 170906
+  dcterms:identifier: 1709-06_141
+  dcterms:title: '[Article le plus surprenant dont on ait jamais parlé]'
+  vmg:indexation:
+  - extrait
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200618
+  dcterms:extent: PT155.95102040816326S
+  dcterms:title: Article le plus surprenant dont on ait jamais parlé
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: e077a05f-0eba-45f5-bfba-a09d9cccf969

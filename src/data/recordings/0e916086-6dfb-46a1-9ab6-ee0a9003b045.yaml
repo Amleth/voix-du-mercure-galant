@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: Fable de La Fontaine (Livre 7, fable 1, 1678)
+  dcterms:date: 0
+  dcterms:identifier: nil
+  dcterms:title: ''
+  vmg:indexation: []
+recording:
+  dcterms:creator: Alice Derieux
+  dcterms:date: 20200805
+  dcterms:extent: PT264.6726530612245S
+  dcterms:title: Les animaux malades de la peste
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 0e916086-6dfb-46a1-9ab6-ee0a9003b045

@@ -1,0 +1,17 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 167306
+  dcterms:identifier: 1673-06_020
+  dcterms:title: '[Impromptu de M. le Duc de R…. sur lequel Mrs Lambert & le Camus
+    ont fait chacun un Air]'
+  vmg:indexation:
+  - Lambert, Michel
+  - Le Camus, Sébastien
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200427
+  dcterms:extent: PT25.248S
+  dcterms:title: Annonce de l'air “Que ta voix divine me touche”
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 6638c9bc-b43e-4442-ba17-4293964247e0

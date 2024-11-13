@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 167201
+  dcterms:identifier: 1672-01_013
+  dcterms:title: '[L''Histoire du Collier de Perles]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: Mademoiselle Angèle
+  dcterms:date: 20200419
+  dcterms:extent: PT512.2350833333334S
+  dcterms:title: Le collier de perles
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: c787553e-a033-407f-a11c-3a7255e9a12b

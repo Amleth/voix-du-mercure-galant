@@ -10,8 +10,8 @@ mg:
 recording:
   dcterms:creator: Mademoiselle Angèle
   dcterms:date: 20200407
-  dcterms:extent: PT224.75755S
-  dcterms:title: Fête galante de Monsieur de Verduron, viguier général de Montpellier
+  dcterms:extent: PT224.75754166666667S
+  dcterms:title: Fête galante de M. de Verduron, viguier général de Montpellier
   vmg:performance_details: ''
   vmg:performance_type: lecture
 sherlock_uuid: 61e5c13b-0234-4283-9c82-ec8363b78f98

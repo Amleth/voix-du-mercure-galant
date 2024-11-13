@@ -1,0 +1,15 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 167809
+  dcterms:identifier: 1678-09e_038
+  dcterms:title: Lettre V.
+  vmg:indexation:
+  - lettre
+recording:
+  dcterms:creator: Amorgos
+  dcterms:date: 20200422
+  dcterms:extent: PT155.76816326530613S
+  dcterms:title: Mort du serin d'une de nos nymphes
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 3929e295-918f-4c6a-b2c3-addf53646ef6

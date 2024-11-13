@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: de l’abbé de Hautefeuille
+  dcterms:date: 170108
+  dcterms:identifier: 1701-08_150
+  dcterms:title: '[Lettre sur la perfection du sens de l’Ouye]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200602
+  dcterms:extent: PT440.241625S
+  dcterms:title: Lettre sur la perfection du sens de l'ouïe
+  vmg:performance_details: ''
+  vmg:performance_type: lecture bruitée
+sherlock_uuid: 1b2e9bd3-6bbb-4335-b925-0823b98dad56

@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 168008
+  dcterms:identifier: 1680-08_305
+  dcterms:title: '[Ce qui s’est passé à la Tragédie representée au College de Clermont]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200804
+  dcterms:extent: PT189.048125S
+  dcterms:title: Ce qui s’est passé à la tragédie représentée au College de Clermont
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 6fe59d24-38f1-41c9-a7c5-0fd3c164545b

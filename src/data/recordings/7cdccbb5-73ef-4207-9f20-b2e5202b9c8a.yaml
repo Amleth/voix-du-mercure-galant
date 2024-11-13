@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 170507
+  dcterms:identifier: 1705-07_111
+  dcterms:title: '[Nouvelles découvertes sur la Guittarre]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200901
+  dcterms:extent: PT43.80733333333333S
+  dcterms:title: Nouveau livre de guitare de M. Campion
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 7cdccbb5-73ef-4207-9f20-b2e5202b9c8a

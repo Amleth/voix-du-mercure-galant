@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 170812
+  dcterms:identifier: 1708-12_380
+  dcterms:title: '[Article des Enigmes]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200428
+  dcterms:extent: PT100.02283333333334S
+  dcterms:title: Réponse à l’énigme de novembre 1708
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 260a3231-ae76-4193-97ac-7e94fef10310

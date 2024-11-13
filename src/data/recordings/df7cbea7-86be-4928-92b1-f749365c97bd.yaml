@@ -1,0 +1,15 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 170209
+  dcterms:identifier: 1702-09_276
+  dcterms:title: '[Journal de Fontainebleau]'
+  vmg:indexation:
+  - 1re partie
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200609
+  dcterms:extent: PT268.64325S
+  dcterms:title: Journal de Fontainebleau
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: df7cbea7-86be-4928-92b1-f749365c97bd

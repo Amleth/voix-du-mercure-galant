@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 168602
+  dcterms:identifier: 1686-02a_292
+  dcterms:title: '[Divertissements donnés à Fontainebleau]*'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20210501
+  dcterms:extent: PT160.52244897959184S
+  dcterms:title: Divertissements donnés à Fontainebleau
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 8faa0a05-3c9f-493d-a962-5a7e632b2350

@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 168401
+  dcterms:identifier: 1684-01_341
+  dcterms:title: '[Mariage de Mademoiselle]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20210115
+  dcterms:extent: PT201.19510204081632S
+  dcterms:title: Mariage de Mademoiselle
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: a310909c-1f4d-4374-ba73-eeb821fc64be

@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: Fable
+  dcterms:date: 168110
+  dcterms:identifier: 1681-10_102
+  dcterms:title: La Mouche, et la Fourmy. Fable
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200530
+  dcterms:extent: PT179.064S
+  dcterms:title: La mouche et la fourmi
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 1fb5cf94-1a27-4471-af56-d64271a79f20

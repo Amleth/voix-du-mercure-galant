@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 168301
+  dcterms:identifier: 1683-01_319
+  dcterms:title: '[Divertissemens de la Cour]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20210408
+  dcterms:extent: PT93.02204081632654S
+  dcterms:title: Création de Phaéton, opéra de Lully
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: d82ff90f-1de8-4ef3-8a16-07bce5a39dce

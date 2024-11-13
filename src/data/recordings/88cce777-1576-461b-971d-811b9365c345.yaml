@@ -1,0 +1,20 @@
+mg:
+  dcterms:creator: de Mme Deshoulières
+  dcterms:date: 167812
+  dcterms:identifier: 1678-12e_292
+  dcterms:title: Réponse de Grisette [Correspondance entre Chats]
+  vmg:indexation:
+  - Antoinette du Ligier de la Garde
+  - Madame Deshoulières
+  - marquise de Montglas
+  - Cécile Elisabeth HURAULT DE CHEVERNY
+  - poésie
+  - vers animaliers
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200509
+  dcterms:extent: PT146.8604081632653S
+  dcterms:title: Réponse de Grisette (Correspondance entre chats)
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 88cce777-1576-461b-971d-811b9365c345

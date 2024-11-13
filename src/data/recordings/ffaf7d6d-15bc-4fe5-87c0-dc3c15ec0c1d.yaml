@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: Fable de La Fontaine (Livre I, fable 13, 1668)
+  dcterms:date: 169012
+  dcterms:identifier: '1690-12_103 ; 1691-02_237 : 1691-03_110 ; 1692-12_240'
+  dcterms:title: Le rat de ville et le rat des champs
+  vmg:indexation: []
+recording:
+  dcterms:creator: la jeune M.
+  dcterms:date: 20200510
+  dcterms:extent: PT50.912625S
+  dcterms:title: Le rat de ville et le rat des champs
+  vmg:performance_details: ''
+  vmg:performance_type: récitation
+sherlock_uuid: ffaf7d6d-15bc-4fe5-87c0-dc3c15ec0c1d

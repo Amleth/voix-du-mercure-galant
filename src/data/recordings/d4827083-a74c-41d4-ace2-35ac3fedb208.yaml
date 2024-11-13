@@ -1,0 +1,19 @@
+mg:
+  dcterms:creator: Air
+  dcterms:date: 170803
+  dcterms:identifier: 1708-03_225
+  dcterms:title: Air nouveau
+  vmg:indexation:
+  - ut1/bc
+  - BOURGOGNE, Marie-Adélaïde de Savoie [1685-1712], duchesse de
+  - air
+  - réutilisation d’un poème
+  - carnaval
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200419
+  dcterms:extent: PT122.88S
+  dcterms:title: Je suis Dieu des Amours, des graces & des ris
+  vmg:performance_details: ''
+  vmg:performance_type: chant a cappella
+sherlock_uuid: d4827083-a74c-41d4-ace2-35ac3fedb208

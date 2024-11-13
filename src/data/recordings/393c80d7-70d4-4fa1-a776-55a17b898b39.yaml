@@ -1,0 +1,16 @@
+mg:
+  dcterms:creator: Conte de Charles Perrault
+  dcterms:date: 169602
+  dcterms:identifier: 1696-02_074
+  dcterms:title: La Belle au bois dormant, Conte.
+  vmg:indexation:
+  - Charles Perrault
+  - conte
+recording:
+  dcterms:creator: la Sibylle des brumes
+  dcterms:date: 20200421
+  dcterms:extent: PT1529.208125S
+  dcterms:title: La Belle au bois dormant, version pour enfants
+  vmg:performance_details: ''
+  vmg:performance_type: lecture bruitée
+sherlock_uuid: 393c80d7-70d4-4fa1-a776-55a17b898b39

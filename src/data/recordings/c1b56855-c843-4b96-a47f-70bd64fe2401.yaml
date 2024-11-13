@@ -1,0 +1,17 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 168803
+  dcterms:identifier: 1688-03_317
+  dcterms:title: '[Opera representé au College de Loüis le Grand]'
+  vmg:indexation:
+  - actualité théâtrale
+  - opéra
+  - Charpentier, Marc-Antoine
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200503
+  dcterms:extent: PT167.9673469387755S
+  dcterms:title: “David et Jonathas” représenté au collège Louis-le-Grand
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: c1b56855-c843-4b96-a47f-70bd64fe2401

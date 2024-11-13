@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: Fable de La Fontaine (Livre 8, fable 26, 1678)
+  dcterms:date: 0
+  dcterms:identifier: nil
+  dcterms:title: ''
+  vmg:indexation: []
+recording:
+  dcterms:creator: Alice Derieux
+  dcterms:date: 20200715
+  dcterms:extent: PT160.728S
+  dcterms:title: Démocrite et les Abdéritains
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: ea99de23-2730-4471-a86c-9b88803d963b

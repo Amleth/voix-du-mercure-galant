@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: Histoire, 1re partie
+  dcterms:date: 167801
+  dcterms:identifier: 1678-01_052
+  dcterms:title: '[La vertu malheureuse. Histoire]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200616
+  dcterms:extent: PT412.16S
+  dcterms:title: La vertu malheureuse
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 825d9151-1ed8-4a96-b0e8-12071751b4a5

@@ -1,0 +1,21 @@
+mg:
+  dcterms:creator: de Mme Deshoulières
+  dcterms:date: 167812
+  dcterms:identifier: 1678-12e_292
+  dcterms:title: Dom Gris, Chat de Madame la Duchesse de Béthune, A Grisette.
+  vmg:indexation:
+  - Antoinette du Ligier de la Garde
+  - Madame Deshoulières
+  - marquise de Montglas
+  - Cécile Elisabeth HURAULT DE CHEVERNY
+  - poésie
+  - vers animaliers
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200418
+  dcterms:extent: PT200.15020408163267S
+  dcterms:title: Dom Gris, chat de Mme la duchesse de Béthune… (Correspondance entre
+    chats)
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: b0050f54-8bce-4569-beb7-807f6d2ae7ea

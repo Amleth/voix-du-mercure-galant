@@ -1,10 +1,13 @@
 /** @jsx jsx */
 
-import { jsx, keyframes } from '@emotion/core'
+import '../fonts/fonts.css'
+
+import { jsx, keyframes } from '@emotion/react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faVolumeUp } from '@fortawesome/free-solid-svg-icons'
 import { graphql, navigate } from 'gatsby'
-import React, { useState } from 'react'
+import { useState } from 'react'
+import Select from 'react-select'
 import {
   formatYYYYMMDD,
   makeExtent,
@@ -43,15 +46,39 @@ const pulseIcon = keyframes`
   }
 `
 
-export default ({ data }) => {
+const audioFilesPublicUrl = {}
+const pictureFilesPublicUrl = {}
+
+const Index = ({ data }) => {
+  data.allFile.nodes.map(function (n) {
+    switch (n.extension) {
+      case 'jpg':
+        pictureFilesPublicUrl[n.name] = n.publicURL
+        break
+      case 'mp3':
+        audioFilesPublicUrl[n.name] = n.publicURL
+        break
+      default:
+    }
+
+    return null
+  })
+
+  for (const node in data.allRecordingsYaml.nodes) {
+    data.allRecordingsYaml.nodes[node]['mp3'] =
+      audioFilesPublicUrl[data.allRecordingsYaml.nodes[node].sherlock_uuid]
+    data.allRecordingsYaml.nodes[node]['jpg'] =
+      pictureFilesPublicUrl[data.allRecordingsYaml.nodes[node].sherlock_uuid]
+  }
+
   const [performanceTypeFilter, setPerformanceTypeFilter] = useState('')
   const [sortCriteria, setSortCriteria] = useState('VMG')
   const [playList, setPlayList] = useState(
-    data.allRecordingsYaml.edges.sort(sortByDateVmg)
+    data.allRecordingsYaml.nodes.sort(sortByDateVmg)
   )
   const [playListIndex, setPlayListIndex] = useState(0)
 
-  const _setSortCriteria = (criteria) => {
+  function _setSortCriteria(criteria) {
     setSortCriteria(criteria)
     let sortFunction
     switch (criteria) {
@@ -72,80 +99,77 @@ export default ({ data }) => {
     setTimeout(() => {
       setPlayList(
         filter
-          ? data.allRecordingsYaml.edges.filter(
-              ({ node }) => node.recording.vmg_performance_type === filter
+          ? data.allRecordingsYaml.nodes.filter(
+              (node) => node.recording.vmg_performance_type === filter
             )
-          : data.allRecordingsYaml.edges
+          : data.allRecordingsYaml.nodes
       )
       setPerformanceTypeFilter(filter)
     }, 0)
   }
+
+  const tags = [
+    ...data.allRecordingsYaml.group.sort((a, b) => a.totalCount - b.totalCount),
+    {
+      vmg_performance_type: 'Tout',
+      totalCount: data.allRecordingsYaml.group.reduce(
+        (a, cv) => a + cv.totalCount,
+        0
+      ),
+    },
+  ]
+    .reverse()
+    .map((t) => ({
+      value: t.vmg_performance_type,
+      label: `${
+        t.vmg_performance_type !== 'Tout'
+          ? t.vmg_performance_type
+          : 'Tous les enregistrements'
+      } (${t.totalCount})`,
+    }))
 
   return (
     <Layout>
       <div
         css={{
           alignContent: 'center',
-          borderBottom: '1px solid lightgray',
           borderTop: '1px solid lightgray',
           display: 'flex',
           flexWrap: 'wrap',
           fontSize: '125%',
           justifyContent: 'center',
+          paddingTop: MARGIN,
         }}
       >
-        {SEPDOT}
-        <div
-          css={{
-            color: '' === performanceTypeFilter ? 'DarkTurquoise' : TEAL,
-            margin: '0 4px',
-            padding: '4px 8px',
-            transition: `color ${OUT}s`,
-            '&:hover': {
-              color: 'DarkTurquoise',
-              transition: `color ${IN}s`,
-            },
+        <Select
+          onChange={(selectedOption) => {
+            const value = selectedOption.value
+            _setPerformanceTypeFilter(value === 'Tout' ? '' : value)
           }}
-          onClick={() => _setPerformanceTypeFilter('')}
-          role="button"
-          tabIndex="0"
-        >
-          Tout (
-          {data.allRecordingsYaml.group.reduce((a, cv) => a + cv.totalCount, 0)}
-          )
-        </div>
-        {SEPDOT}
-        {data.allRecordingsYaml.group.map((pt) => (
-          <React.Fragment key={pt.vmg_performance_type}>
-            <div
-              css={{
-                color:
-                  pt.vmg_performance_type === performanceTypeFilter
-                    ? 'DarkTurquoise'
-                    : TEAL,
-                margin: '0 4px',
-                padding: '4px 8px',
-                transition: `color ${OUT}s`,
-                '&:hover': {
-                  color: 'DarkTurquoise',
-                  transition: `color ${IN}s`,
-                },
-              }}
-              onClick={() =>
-                _setPerformanceTypeFilter(
-                  performanceTypeFilter !== pt.vmg_performance_type
-                    ? pt.vmg_performance_type
-                    : ''
-                )
-              }
-              role="button"
-              tabIndex="0"
-            >
-              {pt.vmg_performance_type} ({pt.totalCount})
-            </div>
-            {SEPDOT}
-          </React.Fragment>
-        ))}
+          defaultValue={tags[0]}
+          styles={{
+            control: (provided, state) => ({
+              ...provided,
+              border: '1px solid LightGray !important',
+              // This line disable the blue border
+              boxShadow: '0 !important',
+              '&:hover': {
+                border: '1px solid LightGray !important',
+              },
+              width: 305,
+            }),
+            option: (provided, state) => ({
+              ...provided,
+              backgroundColor: state.isSelected ? 'Turquoise' : 'white',
+              color: 'black',
+              '&:hover': {
+                backgroundColor: 'PaleTurquoise',
+                color: 'black',
+              },
+            }),
+          }}
+          options={tags}
+        />
       </div>
       <div
         css={{
@@ -190,7 +214,7 @@ export default ({ data }) => {
           role="button"
           tabIndex="0"
         >
-          Par date dans le Mercure
+          Par date de parution dans le Mercure
         </div>
       </div>
       <div
@@ -200,8 +224,7 @@ export default ({ data }) => {
           padding: MARGIN + 'px',
         }}
       >
-        {playList.map(({ node }) => {
-          const jpg = 'pictures/' + node.sherlock_uuid + '.jpg'
+        {playList.map((node) => {
           const extent = makeExtent(node.recording.dcterms_extent)
           return (
             <div
@@ -217,7 +240,7 @@ export default ({ data }) => {
                 justifyContent: 'center',
                 margin: `${MARGIN}px ${MARGIN}px`,
                 maxWidth: '292px',
-                minWidth: PICTURE_SIZE * 2,
+                minWidth: PICTURE_SIZE * 1.5,
                 padding: MARGIN + 'px',
                 textAlign: 'center',
                 transition: `background-color 1s, border-color ${OUT}s, box-shadow ${OUT}s`,
@@ -241,7 +264,7 @@ export default ({ data }) => {
                 if (e.nativeEvent.target.tagName === 'IMG')
                   setPlayListIndex(
                     playList.findIndex(
-                      (_) => _.node.sherlock_uuid === node.sherlock_uuid
+                      (_) => _.sherlock_uuid === node.sherlock_uuid
                     )
                   )
                 else navigate('/' + node.sherlock_uuid)
@@ -249,7 +272,7 @@ export default ({ data }) => {
             >
               <div css={{ color: 'gray', position: 'relative' }}>
                 <img
-                  src={jpg}
+                  src={node.jpg}
                   alt={node.recording.dcterms_title}
                   css={{
                     borderRadius: '50%',
@@ -305,7 +328,7 @@ export default ({ data }) => {
                 )}
               </div>
               <div css={{ flexGrow: 1 }} />
-              <div css={{ color: 'gray', textTransform: 'capitalize' }}>
+              <div css={{ color: 'gray' }}>
                 {node.recording.vmg_performance_type}
                 {node.recording.vmg_performance_details &&
                   ', ' + node.recording.vmg_performance_details}{' '}
@@ -336,34 +359,39 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allRecordingsYaml(
-      sort: { fields: [recording___dcterms_date], order: DESC }
-    ) {
-      group(field: recording___vmg_performance_type) {
+    allRecordingsYaml(sort: {recording: {dcterms_date: DESC}}) {
+      group(field: {recording: {vmg_performance_type: SELECT}}) {
         vmg_performance_type: fieldValue
         totalCount
       }
       totalCount
-      edges {
-        node {
-          sherlock_uuid
-          recording {
-            dcterms_creator
-            dcterms_date
-            dcterms_extent
-            dcterms_title
-            vmg_performance_type
-            vmg_performance_details
-          }
-          mg {
-            dcterms_creator
-            dcterms_date
-            dcterms_identifier
-            dcterms_title
-            vmg_indexation
-          }
+      nodes {
+        sherlock_uuid
+        recording {
+          dcterms_creator
+          dcterms_date
+          dcterms_extent
+          dcterms_title
+          vmg_performance_type
+          vmg_performance_details
         }
+        mg {
+          dcterms_creator
+          dcterms_date
+          dcterms_identifier
+          dcterms_title
+          vmg_indexation
+        }
+      }
+    }
+    allFile {
+      nodes {
+        extension
+        name
+        publicURL
       }
     }
   }
 `
+
+export default Index

@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 167201
+  dcterms:identifier: 1672-01_001
+  dcterms:title: '[Dessein de l’Ouvrage]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200628
+  dcterms:extent: PT349.056S
+  dcterms:title: Dessein de l’Ouvrage
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 17979293-c305-4338-8b10-a47124fec5d1

@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: Dialogue
+  dcterms:date: 169011
+  dcterms:identifier: 1690-11_026
+  dcterms:title: Dialogue. Le Loup, le Renard
+  vmg:indexation: []
+recording:
+  dcterms:creator: Les acolytes anonymes
+  dcterms:date: 20201108
+  dcterms:extent: PT447.29466666666667S
+  dcterms:title: Le loup et le renard
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: eb8e7cdd-946b-4640-b574-1ec6af2a4dba

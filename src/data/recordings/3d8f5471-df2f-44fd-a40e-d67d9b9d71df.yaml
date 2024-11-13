@@ -9,10 +9,10 @@ mg:
   - Portugal
   - Marie-Thérèse, reine de France
 recording:
-  dcterms:creator: L'ami du cardinal Mazarin
+  dcterms:creator: l'ami du cardinal Mazarin
   dcterms:date: 20200406
   dcterms:extent: PT61.92S
   dcterms:title: Compliment fait à la reine par l'envoyé du Portugal
-  vmg:performance_details: espagnol
+  vmg:performance_details: en espagnol
   vmg:performance_type: lecture
 sherlock_uuid: 3d8f5471-df2f-44fd-a40e-d67d9b9d71df

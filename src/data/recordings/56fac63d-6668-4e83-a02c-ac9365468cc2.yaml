@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: Chanson traditionnelle sur la prise de Steenkerque (1692)
+  dcterms:date: 0
+  dcterms:identifier: nil
+  dcterms:title: ''
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20210511
+  dcterms:extent: PT143.0465S
+  dcterms:title: La bataille de Steinkerque
+  vmg:performance_details: ''
+  vmg:performance_type: chant a cappella
+sherlock_uuid: 56fac63d-6668-4e83-a02c-ac9365468cc2

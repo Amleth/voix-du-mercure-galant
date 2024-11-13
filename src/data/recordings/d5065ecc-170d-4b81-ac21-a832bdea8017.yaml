@@ -5,11 +5,12 @@ mg:
   dcterms:title: Air nouveau
   vmg:indexation:
   - Lambert, Michel
+  - annonce éditoriale
 recording:
   dcterms:creator: Vathor père
   dcterms:date: 20200416
   dcterms:extent: PT49.704S
-  dcterms:title: Air d'un fort grand génie…
+  dcterms:title: Annonce de l'air “Dans nos bois, Tircis”
   vmg:performance_details: ''
   vmg:performance_type: lecture
 sherlock_uuid: d5065ecc-170d-4b81-ac21-a832bdea8017

@@ -8,7 +8,7 @@ mg:
 recording:
   dcterms:creator: ''
   dcterms:date: 20200407
-  dcterms:extent: PT259.3959S
+  dcterms:extent: PT259.39591666666666S
   dcterms:title: Secrets merveilleux dont l’expérience a été faite devant le roi
   vmg:performance_details: ''
   vmg:performance_type: lecture

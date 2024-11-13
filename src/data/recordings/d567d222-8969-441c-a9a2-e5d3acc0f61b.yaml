@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 167709
+  dcterms:identifier: 1677-09_054
+  dcterms:title: '[Histoire de l’Enfant Ours]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200425
+  dcterms:extent: PT113.688S
+  dcterms:title: Histoire de l’enfant ours
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: d567d222-8969-441c-a9a2-e5d3acc0f61b

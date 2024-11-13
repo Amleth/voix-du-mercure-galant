@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: Histoire
+  dcterms:date: 168301
+  dcterms:identifier: 1683-01_111
+  dcterms:title: '[Histoire]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20201229
+  dcterms:extent: PT618.2922083333333S
+  dcterms:title: Des moments inévitables pour aimer
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: a6a8fead-285c-4e6e-82a5-a3861a9eb751

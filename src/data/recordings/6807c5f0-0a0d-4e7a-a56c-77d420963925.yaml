@@ -6,10 +6,10 @@ mg:
   vmg:indexation:
   - Énigme
 recording:
-  dcterms:creator: La Sibylle des brumes
+  dcterms:creator: la Sibylle des brumes
   dcterms:date: 20200404
-  dcterms:extent: PT118.8049S
-  dcterms:title: Énigme
+  dcterms:extent: PT118.804875S
+  dcterms:title: Énigme du mois de juillet 1679 et sa réponse
   vmg:performance_details: ''
-  vmg:performance_type: lecture
+  vmg:performance_type: lecture bruitée
 sherlock_uuid: 6807c5f0-0a0d-4e7a-a56c-77d420963925

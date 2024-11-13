@@ -16,9 +16,9 @@ const MONTHS = {
   '07': 'juillet',
   '08': 'août',
   '09': 'septembre',
-  '10': 'octobre',
-  '11': 'novembre',
-  '12': 'décembre',
+  10: 'octobre',
+  11: 'novembre',
+  12: 'décembre',
 }
 
 export const formatYYYYMMDD = (_) => {
@@ -33,16 +33,14 @@ export const formatYYYYMMDD = (_) => {
 }
 
 export const sortByDateMg = (a, b) => {
-  let delta = a.node.mg.dcterms_date - b.node.mg.dcterms_date
+  let delta = a.mg.dcterms_date - b.mg.dcterms_date
   return delta !== 0
     ? -delta
-    : a.node.mg.dcterms_title.localeCompare(b.node.mg.dcterms_title)
+    : a.mg.dcterms_title.localeCompare(b.mg.dcterms_title)
 }
 export const sortByDateVmg = (a, b) => {
-  let delta = a.node.recording.dcterms_date - b.node.recording.dcterms_date
+  let delta = a.recording.dcterms_date - b.recording.dcterms_date
   return delta !== 0
     ? -delta
-    : a.node.recording.dcterms_title.localeCompare(
-        b.node.recording.dcterms_title
-      )
+    : a.recording.dcterms_title.localeCompare(b.recording.dcterms_title)
 }

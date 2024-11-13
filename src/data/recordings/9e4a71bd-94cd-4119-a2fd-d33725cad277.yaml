@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: Histoire
+  dcterms:date: 167804
+  dcterms:identifier: 1678-04_005
+  dcterms:title: '[L’Amant réchauffé, Histoire]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20201103
+  dcterms:extent: PT955.6897959183674S
+  dcterms:title: L’amant réchauffé
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 9e4a71bd-94cd-4119-a2fd-d33725cad277

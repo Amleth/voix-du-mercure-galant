@@ -1,0 +1,20 @@
+mg:
+  dcterms:creator: de Mme Deshoulières
+  dcterms:date: 167812
+  dcterms:identifier: 1678-12e_292
+  dcterms:title: Seconde lettre de Tata à Grisette [Correspondance entre Chats]
+  vmg:indexation:
+  - Antoinette du Ligier de la Garde
+  - Madame Deshoulières
+  - marquise de Montglas
+  - Cécile Elisabeth HURAULT DE CHEVERNY
+  - poésie
+  - vers animaliers
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200510
+  dcterms:extent: PT146.44244897959183S
+  dcterms:title: Seconde lettre de Tata à Grisette (Correspondance entre chats)
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 5988fe2a-f493-42e9-88ad-f9e75da2fe34

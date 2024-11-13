@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 168901
+  dcterms:identifier: 1689-01a_377
+  dcterms:title: '[Tragedie representée à S. Cir]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20210412
+  dcterms:extent: PT223.50367346938776S
+  dcterms:title: Esther de Racine jouée par les Demoiselles de Saint-Cyr
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 0224cc05-8e4c-49c3-8473-d5d2d1a26c91

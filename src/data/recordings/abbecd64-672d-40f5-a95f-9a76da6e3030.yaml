@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: Chanson traditionnelle sur le siège de Turin (1706)
+  dcterms:date: 0
+  dcterms:identifier: nil
+  dcterms:title: ''
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20210516
+  dcterms:extent: PT148.06204166666666S
+  dcterms:title: La prise de Turin
+  vmg:performance_details: ''
+  vmg:performance_type: chant a cappella
+sherlock_uuid: abbecd64-672d-40f5-a95f-9a76da6e3030

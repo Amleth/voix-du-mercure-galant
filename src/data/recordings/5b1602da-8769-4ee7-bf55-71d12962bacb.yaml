@@ -1,0 +1,18 @@
+mg:
+  dcterms:creator: Air sur des paroles de Mme Deshoulières
+  dcterms:date: 167803
+  dcterms:identifier: 1678-03_026
+  dcterms:title: '[Air nouveau, dont les Paroles sont de Madame des Houlieres]'
+  vmg:indexation:
+  - '"Antoinette du Ligier de la Garde'
+  - Madame Deshoulières
+  - air
+  - ut1/bc
+recording:
+  dcterms:creator: la Flexanvillette et l’hôte du fief des granges
+  dcterms:date: 20200511
+  dcterms:extent: PT151.248S
+  dcterms:title: Le cœur tout déchiré
+  vmg:performance_details: ''
+  vmg:performance_type: traverso et basse continue
+sherlock_uuid: 5b1602da-8769-4ee7-bf55-71d12962bacb

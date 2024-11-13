@@ -1,0 +1,16 @@
+mg:
+  dcterms:creator: par Rault, de Rouen
+  dcterms:date: 168106
+  dcterms:identifier: 1681-06e_234
+  dcterms:title: De l’origine et de l’usage des masques
+  vmg:indexation:
+  - Rault, Mr
+  - Rouen
+recording:
+  dcterms:creator: La Sibylle des brumes
+  dcterms:date: 20200428
+  dcterms:extent: PT368.64S
+  dcterms:title: De l’origine et de l’usage des masques
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: fdd57e81-be2a-4523-a049-82eb4798047b

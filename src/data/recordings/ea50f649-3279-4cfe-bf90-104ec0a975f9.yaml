@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 167201
+  dcterms:identifier: 1672-01_000
+  dcterms:title: Le libraire au lecteur
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200528
+  dcterms:extent: PT349.056S
+  dcterms:title: Le libraire au lecteur
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: ea50f649-3279-4cfe-bf90-104ec0a975f9

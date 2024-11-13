@@ -1,0 +1,16 @@
+mg:
+  dcterms:creator: Air de Lesgu
+  dcterms:date: 167810
+  dcterms:identifier: 1678-10_328
+  dcterms:title: Air nouveau
+  vmg:indexation:
+  - air nouveau
+  - Lesgu
+recording:
+  dcterms:creator: Mme de la Pantinoise & Le Maestre alsacien
+  dcterms:date: 20200504
+  dcterms:extent: PT109.03508333333333S
+  dcterms:title: Affreux rochers, demeures sombres
+  vmg:performance_details: ''
+  vmg:performance_type: chant et basse continue
+sherlock_uuid: eb08cede-d9f8-4feb-bbb8-161ab2da2156

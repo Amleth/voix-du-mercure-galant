@@ -1,0 +1,15 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 168008
+  dcterms:identifier: 1680-08_332
+  dcterms:title: '[Jonction des deux Troupes de Comédiens François]'
+  vmg:indexation:
+  - actualité théâtrale
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200502
+  dcterms:extent: PT34.220408163265304S
+  dcterms:title: Jonction des deux troupes de comédiens français
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 731029f5-fd2d-47e3-aa32-699eab91b62f

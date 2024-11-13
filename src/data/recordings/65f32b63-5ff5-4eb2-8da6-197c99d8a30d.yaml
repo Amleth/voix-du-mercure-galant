@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: Fable de La Fontaine (Livre 2, fable 2, 1668)
+  dcterms:date: 0
+  dcterms:identifier: nil
+  dcterms:title: ''
+  vmg:indexation: []
+recording:
+  dcterms:creator: Alice Derieux
+  dcterms:date: 20200831
+  dcterms:extent: PT127.512S
+  dcterms:title: Conseil tenu par les rats
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 65f32b63-5ff5-4eb2-8da6-197c99d8a30d

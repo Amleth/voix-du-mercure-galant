@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 170005
+  dcterms:identifier: 1700-05_197
+  dcterms:title: '[Pavane des Saisons de Pécour]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200527
+  dcterms:extent: PT108.69551020408163S
+  dcterms:title: Pavane des Saisons de Pécour
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 1e9c8e64-3514-46a3-a1b7-f0c99348650e

@@ -1,0 +1,18 @@
+mg:
+  dcterms:creator: Air de Michel Lambert (Ballard, 1689)
+  dcterms:date: 167306
+  dcterms:identifier: 1673-06_020
+  dcterms:title: ''
+  vmg:indexation:
+  - Lambert Michel
+  - air
+recording:
+  dcterms:creator: 'l''Ensemble Usclame. Barbara Kusa, soprano, Vanasay Khamphommala,
+    ténor, Federico Yacubson, basse de viole, Frédéric Michel, clavecin, Mathilde
+    Vittu, violon et direction. Prise de son : Clément Cornuau'
+  dcterms:date: 20200516
+  dcterms:extent: PT182.04733333333334S
+  dcterms:title: Que ta voix divine me touche
+  vmg:performance_details: ''
+  vmg:performance_type: chant et basse continue
+sherlock_uuid: af56d493-91e0-47ce-ac88-bdc131a85ba5

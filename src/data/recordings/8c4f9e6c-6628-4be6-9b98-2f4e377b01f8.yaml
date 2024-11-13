@@ -5,10 +5,10 @@ mg:
   dcterms:title: '[Naissance du duc de Bourgogne à Versailles]'
   vmg:indexation: []
 recording:
-  dcterms:creator: La Sibylle des brumes
-  dcterms:date: 20200416
-  dcterms:extent: PT612.2057S
+  dcterms:creator: la Sibylle des brumes
+  dcterms:date: 20200417
+  dcterms:extent: PT612.2057083333333S
   dcterms:title: Naissance du duc de Bourgogne à Versailles
   vmg:performance_details: ''
-  vmg:performance_type: lecture
+  vmg:performance_type: lecture bruitée
 sherlock_uuid: 8c4f9e6c-6628-4be6-9b98-2f4e377b01f8

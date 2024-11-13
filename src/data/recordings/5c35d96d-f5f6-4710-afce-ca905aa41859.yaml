@@ -1,12 +1,11 @@
 mg:
-  dcterms:creator: Stances du 'Cid' de Pierre Corneille mises en musique par Marc
-    Antoine Charpentier
+  dcterms:creator: de P. Corneille, mises en musique par M.-A. Charpentier
   dcterms:date: 168101
   dcterms:identifier: 1681-01_246b, 1681-02_249, 1681-03_306
   dcterms:title: Chanson
   vmg:indexation:
   - CHARPENTIER, Marc-Antoine
-  - CORNEILLE, PIerre
+  - CORNEILLE, Pierre
   - air
   - Le Cid
   - ut3/bc
@@ -15,7 +14,7 @@ recording:
   dcterms:creator: ''
   dcterms:date: 20200331
   dcterms:extent: PT332.8S
-  dcterms:title: Stances du Cid mises en musique par Marc Antoine Charpentier
-  vmg:performance_details: 'clavecin : Florian Carré ; viole de gambe : Marion Martineau'
+  dcterms:title: Stances du Cid
+  vmg:performance_details: ''
   vmg:performance_type: chant et basse continue
 sherlock_uuid: 5c35d96d-f5f6-4710-afce-ca905aa41859

@@ -1,0 +1,18 @@
+mg:
+  dcterms:creator: Air de Sébastien Le Camus
+  dcterms:date: 167306
+  dcterms:identifier: 1673-06_020
+  dcterms:title: ''
+  vmg:indexation:
+  - Le Camus, Sébastien
+  - air
+recording:
+  dcterms:creator: "l'Ensemble Usclame, dirigé par Mathilde Vittu. Barbara Kusa, soprano,\
+    \ Vanasay Khamphommala, ténor, Federico Yacubson, basse de viole, Frédéric Michel,\
+    \ clavecin. \nPrise de son : Clément Cornuau"
+  dcterms:date: 20200424
+  dcterms:extent: PT140.04241666666667S
+  dcterms:title: Réponse à l'air “Que ta voix divine me touche”
+  vmg:performance_details: ''
+  vmg:performance_type: chant et basse continue
+sherlock_uuid: 29ef8c63-6b9f-43f4-bb69-7f4a95bb3600

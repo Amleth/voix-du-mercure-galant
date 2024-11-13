@@ -7,10 +7,10 @@ mg:
   - AIr
   - François I Martin
 recording:
-  dcterms:creator: L'ami du cardinal Mazarin
-  dcterms:date: 20200415
-  dcterms:extent: PT98.194275S
+  dcterms:creator: l'ami du cardinal Mazarin
+  dcterms:date: 20200413
+  dcterms:extent: PT98.19425S
   dcterms:title: Rossignols, que prétendez-vous  ?
   vmg:performance_details: ''
-  vmg:performance_type: joué au traverso
+  vmg:performance_type: traverso
 sherlock_uuid: 3e07b554-9900-4dec-861d-54f007655552

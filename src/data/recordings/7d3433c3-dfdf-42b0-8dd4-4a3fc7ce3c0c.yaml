@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 167801
+  dcterms:identifier: 1678-01_122
+  dcterms:title: '[Nouvel Instrument appellé l’Apollon, inventé par M. Prompt]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: les Inséparables de la rue de la Paix
+  dcterms:date: 20200512
+  dcterms:extent: PT67.84S
+  dcterms:title: Nouvel instrument appelé l'Apollon
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 7d3433c3-dfdf-42b0-8dd4-4a3fc7ce3c0c

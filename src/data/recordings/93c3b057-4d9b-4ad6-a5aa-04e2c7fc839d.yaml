@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 167907
+  dcterms:identifier: 1679-07_353
+  dcterms:title: '[Enigme du mois passé]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200513
+  dcterms:extent: PT39.00081632653061S
+  dcterms:title: Réponse de l'énigme du mois de juin 1679
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 93c3b057-4d9b-4ad6-a5aa-04e2c7fc839d

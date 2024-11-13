@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 167304
+  dcterms:identifier: 1673-04_266
+  dcterms:title: '[La mort de Molière]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200525
+  dcterms:extent: PT101.90366666666667S
+  dcterms:title: Mort de Molière
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 2d56582a-6073-4a25-a44e-b304741caa18

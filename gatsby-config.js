@@ -1,9 +1,3 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
   siteMetadata: {
     title: `Voix du Mercure Galant`,
@@ -18,13 +12,18 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-web-font-loader',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        custom: {
-          urls: ['fonts/imfell/fonts.css'],
-        },
+        path: `./static/recordings/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./static/pictures/`,
       },
     },
     `gatsby-plugin-emotion`,
+    `gatsby-plugin-sharp`
   ],
 }

@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 170210
+  dcterms:identifier: 1702-10_151
+  dcterms:title: '[Belle voix de Mademoiselle de la Lande]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200518
+  dcterms:extent: PT152.9208163265306S
+  dcterms:title: Belle voix de Mademoiselle de la Lande
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 631a86e1-e2e7-40ac-b23e-77db46fe2c05

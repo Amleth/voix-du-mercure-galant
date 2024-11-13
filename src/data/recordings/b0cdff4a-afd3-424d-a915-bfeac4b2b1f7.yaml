@@ -1,0 +1,15 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 168008
+  dcterms:identifier: 1680-08_128
+  dcterms:title: '[Le Musicien Medecin]'
+  vmg:indexation:
+  - carrière des musiciens
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200501
+  dcterms:extent: PT118.93551020408164S
+  dcterms:title: Le musicien médecin
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: b0cdff4a-afd3-424d-a915-bfeac4b2b1f7

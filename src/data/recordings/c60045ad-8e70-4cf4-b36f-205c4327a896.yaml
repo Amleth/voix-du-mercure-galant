@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 168512
+  dcterms:identifier: 1685-12e_038
+  dcterms:title: Sentimens sur les Questions du dernier Extraordinaire
+  vmg:indexation: []
+recording:
+  dcterms:creator: Bibi la Terreur
+  dcterms:date: 20210131
+  dcterms:extent: PT15.768S
+  dcterms:title: Question à décider
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: c60045ad-8e70-4cf4-b36f-205c4327a896

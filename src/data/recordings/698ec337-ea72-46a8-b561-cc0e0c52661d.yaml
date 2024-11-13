@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 168006
+  dcterms:identifier: 1680-06_249
+  dcterms:title: '[Tout ce qui s’est passé à Fontainebleau]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200509
+  dcterms:extent: PT118.93551020408164S
+  dcterms:title: Divertissements de la cour à Fontainebleau
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 698ec337-ea72-46a8-b561-cc0e0c52661d

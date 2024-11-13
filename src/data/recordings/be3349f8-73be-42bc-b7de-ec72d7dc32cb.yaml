@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: Fable de La Fontaine (Livre II, fable 9, 1668)
+  dcterms:date: 0
+  dcterms:identifier: nil
+  dcterms:title: ''
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20211111
+  dcterms:extent: PT128.376S
+  dcterms:title: Le lion et le moucheron
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: be3349f8-73be-42bc-b7de-ec72d7dc32cb

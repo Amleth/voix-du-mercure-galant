@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 170901
+  dcterms:identifier: 1709-01_343
+  dcterms:title: '[Enigme]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200523
+  dcterms:extent: PT84.63673469387756S
+  dcterms:title: Réponse à l’énigme de décembre 1708
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 0396f0c7-83a8-4514-a4dc-de6e4185e4b7

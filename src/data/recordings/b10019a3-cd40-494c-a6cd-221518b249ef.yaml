@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: Histoire
+  dcterms:date: 167804
+  dcterms:identifier: 1678-04e_494
+  dcterms:title: '[Histoire de la fausse morte]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200827
+  dcterms:extent: PT795.4808163265307S
+  dcterms:title: La fausse morte
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: b10019a3-cd40-494c-a6cd-221518b249ef

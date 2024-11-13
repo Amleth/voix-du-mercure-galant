@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 167802
+  dcterms:identifier: 1678-02_215
+  dcterms:title: '[Les Amours d’Acis & Galatée, petit Opera de M. Charpentier]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: les Inséparables de la rue de la Paix
+  dcterms:date: 20200511
+  dcterms:extent: PT67.813875S
+  dcterms:title: Les Amours d’Acis & Galatée, petit opéra de M. Charpentier
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 642c7992-590d-4ce3-bf1f-3f8330927ccf

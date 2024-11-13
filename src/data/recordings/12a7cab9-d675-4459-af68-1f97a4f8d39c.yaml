@@ -1,0 +1,15 @@
+mg:
+  dcterms:creator: Air
+  dcterms:date: 168906
+  dcterms:identifier: 1689-06a_343
+  dcterms:title: Air nouveau
+  vmg:indexation:
+  - air
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200422
+  dcterms:extent: PT72.54204081632653S
+  dcterms:title: Dans la saison la plus belle
+  vmg:performance_details: ''
+  vmg:performance_type: flûte à bec
+sherlock_uuid: 12a7cab9-d675-4459-af68-1f97a4f8d39c

@@ -1,0 +1,19 @@
+mg:
+  dcterms:creator: à Mme Deshoulières
+  dcterms:date: 168802
+  dcterms:identifier: 1688-02_147
+  dcterms:title: '[Vers de Petonne à sa Maistresse]'
+  vmg:indexation:
+  - Antoinette du Ligier de la Garde
+  - Madame Deshoulières
+  - poésie
+  - vers libres
+  - vers animaliers
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200508
+  dcterms:extent: PT201.0S
+  dcterms:title: Vers de la chienne Petonne à sa maîtresse
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 615a7791-ddad-4271-8a93-0ade89eef370

@@ -1,0 +1,15 @@
+mg:
+  dcterms:creator: Air de M.-A. Charpentier
+  dcterms:date: 167811
+  dcterms:identifier: 1678-11_347
+  dcterms:title: '[Air de M. Charpentier]'
+  vmg:indexation:
+  - air nouveau
+recording:
+  dcterms:creator: Mme de la Pantinoise & Le Maestre alsacien
+  dcterms:date: 20200505
+  dcterms:extent: PT138.86691666666667S
+  dcterms:title: Ah, qu’on est malheureux
+  vmg:performance_details: ''
+  vmg:performance_type: chant et basse continue
+sherlock_uuid: 2bbbee30-fe9a-4872-bd5b-b276efec8c04

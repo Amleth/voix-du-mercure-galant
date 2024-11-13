@@ -6,12 +6,13 @@ mg:
   vmg:indexation:
   - Marchand, Louis
   - clavecin
-  - livres nouveaux
+  - livre nouveau
+  - annonce éditoriale
 recording:
   dcterms:creator: ''
   dcterms:date: 20200407
-  dcterms:extent: PT61.178775S
-  dcterms:title: Parution des pièces de clavecin de Louis Marchand
+  dcterms:extent: PT61.17875S
+  dcterms:title: Recueil de pièces de clavecin de Louis Marchand
   vmg:performance_details: ''
   vmg:performance_type: lecture
 sherlock_uuid: daaee93c-3dfc-4b1e-a547-76bbf017e612

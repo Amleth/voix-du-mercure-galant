@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 168310
+  dcterms:identifier: 1683-10a_332
+  dcterms:title: '[Comédie d’Arlequin Prothée & Avocat]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200619
+  dcterms:extent: PT82.18120833333333S
+  dcterms:title: Comédie d’Arlequin Protée & avocat
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 3480a261-1e14-4ed9-9c11-173e51b49f2c

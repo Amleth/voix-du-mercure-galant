@@ -1,0 +1,18 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 167903
+  dcterms:identifier: 1679-03_184
+  dcterms:title: '[Monseigneur le Dauphin va une seconde fois à l’Opéra de Bellérophon]'
+  vmg:indexation:
+  - Lully
+  - Bellérophon
+  - Fontenelle
+  - Donneau de Visé
+recording:
+  dcterms:creator: ''
+  dcterms:date: 20200430
+  dcterms:extent: PT122.01795918367347S
+  dcterms:title: Monseigneur le Dauphin va une seconde fois à l’opéra de Bellérophon
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 9fcb0a18-171c-4b77-b5fe-8335dbef433c

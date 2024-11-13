@@ -8,9 +8,9 @@ mg:
   - éloge funèbre
   - Michel Le Tellier (1603-1685)
 recording:
-  dcterms:creator: L'ami du cardinal Mazarin
+  dcterms:creator: l'ami du cardinal Mazarin
   dcterms:date: 20200406
-  dcterms:extent: PT98.16815S
+  dcterms:extent: PT98.168125S
   dcterms:title: Mort de Monsieur le Chancelier Le Tellier
   vmg:performance_details: ''
   vmg:performance_type: lecture

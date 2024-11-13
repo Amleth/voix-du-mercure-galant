@@ -1,0 +1,14 @@
+mg:
+  dcterms:creator: ''
+  dcterms:date: 168702
+  dcterms:identifier: 1687-02_239
+  dcterms:title: '[Livre nouveau touchant le bon usage du Thé, du Café, et du Chocolat]'
+  vmg:indexation: []
+recording:
+  dcterms:creator: Bibi la Terreur
+  dcterms:date: 20200502
+  dcterms:extent: PT58.632S
+  dcterms:title: Du bon usage du thé, du café et du chocolat
+  vmg:performance_details: ''
+  vmg:performance_type: lecture
+sherlock_uuid: 32d57afa-2c22-40d1-a126-20b104e6169d

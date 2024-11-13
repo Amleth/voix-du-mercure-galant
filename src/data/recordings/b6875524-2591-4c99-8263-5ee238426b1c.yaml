@@ -6,9 +6,9 @@ mg:
   vmg:indexation: []
 recording:
   dcterms:creator: Vathor père
-  dcterms:date: 20200416
+  dcterms:date: 20200413
   dcterms:extent: PT118.872S
-  dcterms:title: Lettre
+  dcterms:title: Lettre au Mercure galant
   vmg:performance_details: ''
   vmg:performance_type: lecture
 sherlock_uuid: b6875524-2591-4c99-8263-5ee238426b1c

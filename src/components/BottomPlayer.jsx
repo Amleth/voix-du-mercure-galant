@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { jsx } from '@emotion/core'
+import { jsx } from '@emotion/react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faPause,
@@ -8,7 +8,7 @@ import {
   faChevronLeft,
   faChevronRight,
 } from '@fortawesome/free-solid-svg-icons'
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import WaveSurfer from 'wavesurfer.js'
 import { formatYYYYMMDD } from '../common/helpers'
 import { TEAL, IN, OUT } from '../common/style'
@@ -26,7 +26,7 @@ const cssButton = {
   },
 }
 
-export default ({ playList, playListIndex_ }) => {
+const BottomPlayer = ({ playList, playListIndex_ }) => {
   const [playListIndex, setPlayListIndex] = useState(0)
   const [playState, setPlayState] = useState('pause')
   const [navEnabled, setNavEnabled] = useState(false)
@@ -41,8 +41,7 @@ export default ({ playList, playListIndex_ }) => {
     let wavesurfer
     if (waveformRef.current) {
       setNavEnabled(false)
-      const mp3 =
-        'recordings/' + playList[playListIndex].node.sherlock_uuid + '.mp3'
+      const mp3 = playList[playListIndex].mp3
       wavesurfer = WaveSurfer.create({
         container: waveformRef.current,
         cursorColor: 'white',
@@ -62,7 +61,7 @@ export default ({ playList, playListIndex_ }) => {
       wavesurfer.on('play', () => setPlayState('play'))
       wavesurfer.on('ready', () => {
         setNavEnabled(true)
-        if (playState == 'play') wavesurfer.play()
+        if (playState === 'play') wavesurfer.play()
       })
     }
     if (buttonRef.current) {
@@ -134,7 +133,6 @@ export default ({ playList, playListIndex_ }) => {
           css={{
             flexGrow: 1,
             fontSize: '1.5rem',
-            fontStyle: 'italic',
             paddingRight: '1em',
             textAlign: 'right',
           }}
@@ -148,10 +146,10 @@ export default ({ playList, playListIndex_ }) => {
                 transition: `color ${IN}s`,
               },
             }}
-            href={`#${playList[playListIndex].node.sherlock_uuid}`}
+            href={`#${playList[playListIndex].sherlock_uuid}`}
           >
-            {playList[playListIndex].node.recording.dcterms_title} (
-            {formatYYYYMMDD(playList[playListIndex].node.mg.dcterms_date)})
+            {playList[playListIndex].recording.dcterms_title} (
+            {formatYYYYMMDD(playList[playListIndex].mg.dcterms_date)})
           </a>
         </div>
       </div>
@@ -159,3 +157,5 @@ export default ({ playList, playListIndex_ }) => {
     </div>
   )
 }
+
+export default BottomPlayer
